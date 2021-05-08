@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully opened browser......]]>
+    </line>
+    <line>
+      <![CDATA[Entered URL https://www.cowin.gov.in/home]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Serach By District]]>
+    </line>
+    <line>
+      <![CDATA[Selected on State]]>
+    </line>
+    <line>
+      <![CDATA[Selected on District]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Search]]>
+    </line>
+    <line>
+      <![CDATA[Selected 18+]]>
+    </line>
+    <line>
+      <![CDATA[Execution completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39494" started-at="2021-05-08T13:35:43 EDT" finished-at="2021-05-08T13:36:22 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39494" started-at="2021-05-08T13:35:43 EDT" finished-at="2021-05-08T13:36:22 EDT">
+      <class name="com.smj.practice.CowinNotofication.CowinApplicationNotification">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smj.practice.CowinNotofication.CowinApplicationNotification@4b1c1ea0]" name="setup" is-config="true" duration-ms="23926" started-at="2021-05-08T13:35:43 EDT" finished-at="2021-05-08T13:36:07 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully opened browser......]]>
+            </line>
+            <line>
+              <![CDATA[Entered URL https://www.cowin.gov.in/home]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sendNotification()[pri:0, instance:com.smj.practice.CowinNotofication.CowinApplicationNotification@4b1c1ea0]" name="sendNotification" duration-ms="13907" started-at="2021-05-08T13:36:07 EDT" finished-at="2021-05-08T13:36:21 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Serach By District]]>
+            </line>
+            <line>
+              <![CDATA[Selected on State]]>
+            </line>
+            <line>
+              <![CDATA[Selected on District]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Search]]>
+            </line>
+            <line>
+              <![CDATA[Selected 18+]]>
+            </line>
+            <line>
+              <![CDATA[Execution completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendNotification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.smj.practice.CowinNotofication.CowinApplicationNotification@4b1c1ea0]" name="closeBrowser" is-config="true" duration-ms="1569" started-at="2021-05-08T13:36:21 EDT" finished-at="2021-05-08T13:36:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.smj.practice.CowinNotofication.CowinApplicationNotification -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
