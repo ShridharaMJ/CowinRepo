@@ -6,6 +6,10 @@
 	<groupId>com.smj.practice</groupId>
 	<artifactId>CowinNotofication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.source>18</maven.compiler.source>
+		<maven.compiler.target>18</maven.compiler.target>
+	</properties>
 	<packaging>jar</packaging>
 
 	<name>CowinNotofication</name>
@@ -65,7 +69,13 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.8.1</version>
 </dependency>
-		
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<scope>compile</scope>
+		</dependency>
+
 	</dependencies>
 
 </project>

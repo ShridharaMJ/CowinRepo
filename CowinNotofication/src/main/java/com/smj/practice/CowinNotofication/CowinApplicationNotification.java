@@ -86,7 +86,7 @@ public class CowinApplicationNotification {
 			String text = elements.get(i).getText();
 			if (isNumeric(text)) {
 				Reporter.log("Vaccination centre found", true);
-				EmailLibrary.emailNotify("mj.shridhara@mail.com");
+				//EmailLibrary.emailNotify("mj.shridhara@mail.com");
 
 			}
 		}
